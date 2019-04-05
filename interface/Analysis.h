@@ -35,14 +35,14 @@
 
 
 
-class Analysis_mc : public TObject {
+class Analysis : public TObject {
     
  public:
     
     
-  Analysis_mc();
-  Analysis_mc(int selezione, string FileNameTree_in);
-  virtual ~Analysis_mc();
+  Analysis();
+  Analysis(int selezione, string FileNameTree_in);
+  virtual ~Analysis();
     
   void analisi( int selezione,   int num_histo_kin	   
 		   );
@@ -83,7 +83,7 @@ void printProgress(double progress) ;
     
     
     
-  ClassDef(Analysis_mc,1) 
+  ClassDef(Analysis,1) 
     };
 
 #endif
