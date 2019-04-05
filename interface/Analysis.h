@@ -1,5 +1,5 @@
-#ifndef ANALYSIS_MC_H
-#define ANALYSIS_MC_H
+#ifndef ANALYSIS_H
+#define ANALYSIS_H
 #include "TObject.h"
 
 #include <iostream>
